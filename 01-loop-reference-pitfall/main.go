@@ -25,12 +25,12 @@ func main() {
 		fmt.Printf("Title: %-30s | Address: %p\n", bp.Title, bp)
 	}
 
-	fmt.Println("\n✅ Fixed Version:")
-	var fixedPointers []*Book
-	for i := range originalBooks {
-		fixedPointers = append(fixedPointers, &originalBooks[i])
-	}
-	for _, bp := range fixedPointers {
-		fmt.Printf("Title: %-30s | Address: %p\n", bp.Title, bp)
-	}
+	// fmt.Println("\n✅ Fixed Version:")
+	// var fixedPointers []*Book
+	// for i := range originalBooks {
+	// 	fixedPointers = append(fixedPointers, &originalBooks[i])
+	// }
+	// for _, bp := range fixedPointers {
+	// 	fmt.Printf("Title: %-30s | Address: %p\n", bp.Title, bp)
+	// }
 }
